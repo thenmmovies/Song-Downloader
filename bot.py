@@ -51,9 +51,9 @@ CMDS_TEXT = """
 
 ABOUT_TEXT = """
 - **Bot :** `Song Downloader`
-- **Creator :** [MR-JINN-OF-TG](https://Github.com/MR-JINN-OF-TG)
-- **Support :** [CLICK HERE](https://telegram.me/NAZRIYASUPPORT)
-- **Source :** [CLICK HERE](https://github.com/MR-JINN-OF-TG/Song-Downloader)
+- **Creator :** [Mhd Fajis](https://t.me/mhdfajis)
+- **Support :** [CLICK HERE](https://telegram.me/codingdiscuss)
+- **Source :** [CLICKHERE](https://telegram.me/codingdiscuss)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
@@ -62,7 +62,7 @@ ABOUT_TEXT = """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Support📕', url=f"https://telegram.me/{Config.SUPPORT}"), 
-        InlineKeyboardButton(text="SEARCH🔎", switch_inline_query_current_chat="")
+        InlineKeyboardButton(text="SEARCH🔎",url="https://t.me/mhdfajisn")
         ],[
         InlineKeyboardButton('HELP & USAGE⚙️', callback_data ='cmds') 
         ],[
