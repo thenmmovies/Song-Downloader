@@ -61,7 +61,7 @@ ABOUT_TEXT = """
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Support📕', url=f"https://telegram.me/{Config.SUPPORT}"), 
+        InlineKeyboardButton('Support📕', url="https://t.me/codingdiscuss"), 
         InlineKeyboardButton(text="SEARCH🔎",url="https://t.me/mhdfajisn")
         ],[
         InlineKeyboardButton('HELP & USAGE⚙️', callback_data ='cmds') 
